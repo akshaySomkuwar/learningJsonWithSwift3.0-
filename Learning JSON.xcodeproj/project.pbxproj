@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29FE97361E8A5EF10088BB70 /* TestJASON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJASON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE97361E8A5EF10088BB70 /* Learning JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FE97391E8A5EF10088BB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FE973B1E8A5EF10088BB70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29FE973E1E8A5EF10088BB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		29FE97371E8A5EF10088BB70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29FE97361E8A5EF10088BB70 /* TestJASON.app */,
+				29FE97361E8A5EF10088BB70 /* Learning JSON.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29FE97351E8A5EF10088BB70 /* TestJASON */ = {
+		29FE97351E8A5EF10088BB70 /* Learning JSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29FE97481E8A5EF10088BB70 /* Build configuration list for PBXNativeTarget "TestJASON" */;
+			buildConfigurationList = 29FE97481E8A5EF10088BB70 /* Build configuration list for PBXNativeTarget "Learning JSON" */;
 			buildPhases = (
 				29FE97321E8A5EF10088BB70 /* Sources */,
 				29FE97331E8A5EF10088BB70 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TestJASON;
+			name = "Learning JSON";
 			productName = TestJASON;
-			productReference = 29FE97361E8A5EF10088BB70 /* TestJASON.app */;
+			productReference = 29FE97361E8A5EF10088BB70 /* Learning JSON.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29FE97311E8A5EF10088BB70 /* Build configuration list for PBXProject "TestJASON" */;
+			buildConfigurationList = 29FE97311E8A5EF10088BB70 /* Build configuration list for PBXProject "Learning JSON" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29FE97351E8A5EF10088BB70 /* TestJASON */,
+				29FE97351E8A5EF10088BB70 /* Learning JSON */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 				DEVELOPMENT_TEAM = FHHJ334WD9;
 				INFOPLIST_FILE = TestJASON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bbc.test.TestJASON;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbc.test.TestJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +275,7 @@
 				DEVELOPMENT_TEAM = FHHJ334WD9;
 				INFOPLIST_FILE = TestJASON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bbc.test.TestJASON;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bbc.test.TestJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29FE97311E8A5EF10088BB70 /* Build configuration list for PBXProject "TestJASON" */ = {
+		29FE97311E8A5EF10088BB70 /* Build configuration list for PBXProject "Learning JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29FE97461E8A5EF10088BB70 /* Debug */,
@@ -293,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29FE97481E8A5EF10088BB70 /* Build configuration list for PBXNativeTarget "TestJASON" */ = {
+		29FE97481E8A5EF10088BB70 /* Build configuration list for PBXNativeTarget "Learning JSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29FE97491E8A5EF10088BB70 /* Debug */,
 				29FE974A1E8A5EF10088BB70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

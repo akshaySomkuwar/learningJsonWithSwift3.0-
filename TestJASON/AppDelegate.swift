@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TestJASON
+//  TestJSON
 //
 //  Created by BBC on 28/03/17.
 //  Copyright © 2017 com.bbc.test. All rights reserved.

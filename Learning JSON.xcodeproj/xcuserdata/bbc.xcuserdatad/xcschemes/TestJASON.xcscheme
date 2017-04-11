@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "29FE97351E8A5EF10088BB70"
-               BuildableName = "TestJASON.app"
-               BlueprintName = "TestJASON"
-               ReferencedContainer = "container:TestJASON.xcodeproj">
+               BuildableName = "Learning JSON.app"
+               BlueprintName = "Learning JSON"
+               ReferencedContainer = "container:Learning JSON.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29FE97351E8A5EF10088BB70"
-            BuildableName = "TestJASON.app"
-            BlueprintName = "TestJASON"
-            ReferencedContainer = "container:TestJASON.xcodeproj">
+            BuildableName = "Learning JSON.app"
+            BlueprintName = "Learning JSON"
+            ReferencedContainer = "container:Learning JSON.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29FE97351E8A5EF10088BB70"
-            BuildableName = "TestJASON.app"
-            BlueprintName = "TestJASON"
-            ReferencedContainer = "container:TestJASON.xcodeproj">
+            BuildableName = "Learning JSON.app"
+            BlueprintName = "Learning JSON"
+            ReferencedContainer = "container:Learning JSON.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "29FE97351E8A5EF10088BB70"
-            BuildableName = "TestJASON.app"
-            BlueprintName = "TestJASON"
-            ReferencedContainer = "container:TestJASON.xcodeproj">
+            BuildableName = "Learning JSON.app"
+            BlueprintName = "Learning JSON"
+            ReferencedContainer = "container:Learning JSON.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
