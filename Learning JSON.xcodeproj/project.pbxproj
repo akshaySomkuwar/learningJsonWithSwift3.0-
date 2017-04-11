@@ -38,7 +38,7 @@
 		29FE972D1E8A5EF10088BB70 = {
 			isa = PBXGroup;
 			children = (
-				29FE97381E8A5EF10088BB70 /* TestJASON */,
+				29FE97381E8A5EF10088BB70 /* Test JSON */,
 				29FE97371E8A5EF10088BB70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29FE97381E8A5EF10088BB70 /* TestJASON */ = {
+		29FE97381E8A5EF10088BB70 /* Test JSON */ = {
 			isa = PBXGroup;
 			children = (
 				29FE97391E8A5EF10088BB70 /* AppDelegate.swift */,
@@ -61,6 +61,7 @@
 				29FE97421E8A5EF10088BB70 /* LaunchScreen.storyboard */,
 				29FE97451E8A5EF10088BB70 /* Info.plist */,
 			);
+			name = "Test JSON";
 			path = TestJASON;
 			sourceTree = "<group>";
 		};
