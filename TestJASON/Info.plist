@@ -26,7 +26,7 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict/>
-		<key>com.bbc.test.TestJASON</key>
+		<key>com.bbc.test.TestJSON</key>
 		<false/>
 	</dict>
 	<key>UILaunchStoryboardName</key>

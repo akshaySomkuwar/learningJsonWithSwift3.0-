@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITableViewDataSource
                     print(jsonData)
                     if let countryRates = jsonData["rates"] as? [String: Double]
                     {
-                     //print(countryRates["AUD"]!)
+                        //print(countryRates["AUD"]!)
                         for (country,countryRates) in countryRates
                         {
                             let country = country 
