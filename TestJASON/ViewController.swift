@@ -33,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource
             if data == nil
             {
                 print("ERROR")
+                print("merge from branchTwo")
             }
             else
             {
