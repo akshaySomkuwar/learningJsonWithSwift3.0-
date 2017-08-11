@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource
     var ourData = [countryRatesStruct]()
     func testingFunctionAkshay() {
         print("test one")
+        print("hi akshay")
     }
     
     // MARK: Fethching and convertion of JSON data
