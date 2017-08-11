@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource
     func testingFunctionAkshay() {
         print("test one")
         print("hi akshay")
+        print ("hi nikhil from test one")
     }
     
     // MARK: Fethching and convertion of JSON data
