@@ -12,7 +12,9 @@ class ViewController: UIViewController, UITableViewDataSource
 {
     @IBOutlet weak var tableView: UITableView!
     var ourData = [countryRatesStruct]()
-
+    func testingFunctionAkshay() {
+        
+    }
     
     // MARK: Fethching and convertion of JSON data
     func downloadJsonData()
@@ -20,7 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource
         ourData = []
         
         
-    // MARK: JSON Downloading content
+        // MARK: JSON Downloading content
         
         
         print("JSON started download")
@@ -32,7 +34,7 @@ class ViewController: UIViewController, UITableViewDataSource
             }
             else
             {
-             
+                
                 do
                 {
                     let jsonData = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as AnyObject
@@ -42,13 +44,13 @@ class ViewController: UIViewController, UITableViewDataSource
                         //print(countryRates["AUD"]!)
                         for (country,countryRates) in countryRates
                         {
-                            let country = country 
+                            let country = country
                             let rates = countryRates
                             self.ourData.append(countryRatesStruct(countryName: country, rates: rates))
                             
                             
                             
-                          
+                            
                         }
                         self.tableView.reloadData()
                     }
@@ -58,11 +60,11 @@ class ViewController: UIViewController, UITableViewDataSource
                     print("ERROR catched")
                 }
                 
-             
+                
             }
         }
-       task.resume()
-       
+        task.resume()
+        
     }
     
     
