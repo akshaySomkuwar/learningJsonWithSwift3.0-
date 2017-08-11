@@ -13,14 +13,16 @@ class ViewController: UIViewController, UITableViewDataSource
     @IBOutlet weak var tableView: UITableView!
     var ourData = [countryRatesStruct]()
     func testingFunctionAkshay() {
-        
+        print("test one")
+        print("test 2")
     }
     
     // MARK: Fethching and convertion of JSON data
     func downloadJsonData()
     {
         ourData = []
-        
+        print ("hi nikhil from test one")
+
         
         // MARK: JSON Downloading content
         
@@ -31,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource
             if data == nil
             {
                 print("ERROR")
+                print("merge from branchTwo")
             }
             else
             {
@@ -47,7 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource
                             let country = country
                             let rates = countryRates
                             self.ourData.append(countryRatesStruct(countryName: country, rates: rates))
-                            
+                            print("hi back")
                             
                             
                             
