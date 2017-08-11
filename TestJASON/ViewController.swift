@@ -21,7 +21,8 @@ class ViewController: UIViewController, UITableViewDataSource
     func downloadJsonData()
     {
         ourData = []
-        
+        print ("hi nikhil from test one")
+
         
         // MARK: JSON Downloading content
         
