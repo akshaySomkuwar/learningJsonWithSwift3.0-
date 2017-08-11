@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource
     @IBOutlet weak var tableView: UITableView!
     var ourData = [countryRatesStruct]()
     func testingFunctionAkshay() {
-        
+        print("test one")
     }
     
     // MARK: Fethching and convertion of JSON data
