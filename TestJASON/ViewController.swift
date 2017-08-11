@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDataSource
                             let country = country
                             let rates = countryRates
                             self.ourData.append(countryRatesStruct(countryName: country, rates: rates))
-                            
+                            print("hi back")
                             
                             
                             
